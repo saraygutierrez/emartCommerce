@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>eMart Commerce Platform</title>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="static/css/bootstrap.css"/>
+</head>
+<body>
+    <header class="container">
+        <div class="row header">
+            <div class="col-xs-2 col-sm-2 logo">
+                <figure>
+                    <img src="logo.png" alt="" class="logo-img"/>
+                </figure>
+            </div>
+            <div class="col-xs-12 col-sm-6 account">
+                <div class="row account-noauth">
+                    <a href="#">Registrarse </a> |
+                    <a href="#">Iniciar Sesión</a>
+                </div>
+                <div class="row account-auth">
+                    <a href="#">Mi Cuenta</a> |
+                    <a href="#">Mis Pedidos</a> |
+                    <a href="#">Mis Listas</a> |
+                    <a href="#">Favoritos</a> |
+                    <a href="#">Cerrar sesión</a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 search">
+                <div class="row search-label">
+                    Búsqueda
+                </div>
+                <div class="row">
+                    <div class="input-group search-input">
+                        <input type="text" class="form-control">
+                        <span class="input-group-btn">
+                        <button class="btn btn-default" type="button">Go!</button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <nav class="navbar navbar-default container" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Brand</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Multi Level <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Level 1</a></li>
+                        <li class="dropdown-submenu"> <a tabindex="-1" href="#">More options</a>
+                            <ul class="dropdown-menu">
+                                <li><a tabindex="-1" href="#">Level 2</a>
+                                </li>
+                                <li class="dropdown-submenu"> <a href="#">More..</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Level 3</a>
+                                        </li>
+                                        <li><a href="#">Level 3</a>
+                                        </li>
+                                        <li class="dropdown-submenu"> <a href="#">More..</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Level 4</a>
+                                                </li>
+                                                <li><a href="#">Level 4</a>
+                                                </li>
+                                                <li class="dropdown-submenu"> <a href="#">More..</a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="#">Level 5</a>
+                                                        </li>
+                                                        <li><a href="#">Level 5</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+
+                                            </ul>
+                                        </li>
+
+                                    </ul>
+                                </li>
+                                <li><a href="#">Level 2</a>
+                                </li>
+                                <li><a href="#">Level 2</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Level 1</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </nav>
+
+
+    <div class="container banner">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="static/img/sitio/banner_example.png" alt="...">
+                </div>
+                <div class="item">
+                    <img src="static/img/sitio/banner_example.png" alt="...">
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="static/js/bootstrap.min.js"></script>
+</body>
+</html>
